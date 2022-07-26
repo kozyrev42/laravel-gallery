@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    @yeild('content')
+    @yield('content')   {{-- сюда вставим секцию 'content' --}}
+
+    <br>
+
+    @yield('bar')
 </body>
 </html>
